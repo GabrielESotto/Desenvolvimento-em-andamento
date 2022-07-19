@@ -7,3 +7,6 @@ sobre mim, qualificações, cursos, formações, projetos onde irei realizar dep
 O projetoAgenda foi desenvolvido através do Python e seu framework web Django, foi realizado deploy na plataforma da Google Cloud com Banco de Dados SQLITE3 e outra versao com MySQL.
 
 A calculadoraIMC foi desenvolvido apenas com HTML, CSS e Javascript e não foi feito deploy.
+
+O selenium é um script em Python que faz uma automação com o site do GitHub, onde abre o Google Chrome, acessa o gitHub com login/senha, depois acessa o profile e edita seu 
+status automaticamente para a frase desejada, faz logout e fecha o Google Chrome.
