@@ -84,9 +84,8 @@ body {
 .result {
     background-color: rgb(207, 165, 130);
     text-align: center;
-    border-radius: 10px;
-    padding: 10px 20px;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 form p {
