@@ -10,3 +10,5 @@ A calculadoraIMC foi desenvolvido apenas com HTML, CSS e Javascript e não foi f
 
 O selenium é um modulo do Python que permite realizar algumas automações web. O script dentro dessa pasta faz uma automação com o site do GitHub, onde abre o Google Chrome, 
 acessa o gitHub com login/senha, depois acessa o profile e edita seu status automaticamente para a frase desejada, faz logout e fecha o Google Chrome.
+
+listaTarefas é um script básico onde voce pode adicionar e remover tarefas de uma lista dentro da web, apenas HTML e JS, não foi estilizada no CSS
