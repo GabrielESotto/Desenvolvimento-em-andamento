@@ -99,11 +99,12 @@ form button:hover {
     height: 30px;
     border-radius: 25px;
     border: 1px solid rgba(18, 191, 248, 0.432);
-    font-size: 15px;
+    font-size: 19px;
     text-align: center;
     font-weight: bold;
     background: linear-gradient(90deg, rgb(218, 213, 213), rgb(243, 239, 239));
     cursor: pointer;
+    font-family: 'Cormorant SC';
 }
 
 .verificador .btn-verificar:hover {

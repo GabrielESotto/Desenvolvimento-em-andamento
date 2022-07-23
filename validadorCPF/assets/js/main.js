@@ -5,7 +5,7 @@ let arrayVerificado = []
 
 const validador = function (cpf) {
     cpf = inputCPF.value
-    if (cpf.length <= 2 || cpf.length > 14) return 'O CPF deve ter 11 digitos'
+    if (cpf.length <= 10 || cpf.length > 14) return 'O CPF deve ter 11 digitos'
     if (cpf.match(/^(\s)+$/)) return 'Não pode enviar valores em branco'
 
     const cpfLimpo = limparCPF(cpf)
