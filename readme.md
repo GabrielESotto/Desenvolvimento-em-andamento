@@ -14,3 +14,5 @@ acessa o gitHub com login/senha, depois acessa o profile e edita seu status auto
 listaTarefas é um script básico onde voce pode adicionar e remover tarefas de uma lista dentro da web, apenas HTML e JS, não foi estilizada no CSS
 
 geradorSenha é um script em JS e design HTML/CSS que gera uma senha de 6 a 25 digitos com caracteres aleatórios com clipboard ao clicar na senha. Bem simples, mas funcional.
+
+validadorCPF é um script em JS que atraves de uma conta matematica disponibilizada pelo governo, verifica e valida o numero de CPF.
