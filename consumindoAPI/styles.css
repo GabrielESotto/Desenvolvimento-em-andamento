@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Edu+QLD+Beginner:wght@600&family=Mochiy+Pop+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant SC', cursive;
+    background-color: rgb(87, 83, 83);
+}
+
+body>h1 {
+    text-align: center;
+    background: linear-gradient(to bottom, #2f648f, #799ca5);
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: -2px 4px 6px rgb(46, 44, 44);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: linear-gradient(90deg, rgb(17, 85, 85), rgb(15, 111, 150));
+    margin: 10px;
+    width: 25%;
+    height: 230px;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid rgb(5, 69, 73);
+    box-shadow: -2px 4px 6px rgb(46, 44, 44);
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: inset -2px 4px 6px rgb(46, 44, 44);
+}
+
+.card h1 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .card h1 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .card h1 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .card p {
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
