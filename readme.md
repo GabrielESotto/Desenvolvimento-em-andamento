@@ -20,3 +20,5 @@ validadorCPF é um modelo HTML/CSS com script em JS que atraves de uma conta mat
 consumindoAPI é um estudo que estou realizando sobre como utilizar fetch para consumir API's
 
 pokedex é um projeto em HTML/CSS/JS que consome a mesma api do meu estudo anterior e insere ela no HTML
+
+validarFormulario é um projeto em HTML/CSS/JS que faz a validação dos campos de um formulário utilizando classes
