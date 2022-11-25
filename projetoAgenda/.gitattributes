@@ -1,0 +1,3 @@
+$ cat .gitattributes
+*.python linguist-language=Javascript
+*.css linguist-language=Javascript
